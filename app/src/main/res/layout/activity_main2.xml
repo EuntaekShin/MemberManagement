@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.shineuntaek.membermanagement.MainActivity">
+<TextView
+    android:id="@+id/welcomeMsg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:text="Welcome"
+    android:textStyle="bold"
+    android:textColor="@color/colorGray"
+    android:textSize="30dp"
+    android:layout_marginBottom="30dp" />
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Your ID"
+        android:textSize="25dp"
+        android:background="@drawable/button_login"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="10dp" />
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:textSize="25dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorGray"/>
+    <TextView
+        android:id="@+id/textviex4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:text="Your Password"
+        android:background="@drawable/button_login"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/passwordTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textSize="25dp"
+        android:textColor="@color/colorGray"/>
+
+    <Button
+        android:id="@+id/managementButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Management"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/button_login"
+        />
+
+
+</LinearLayout>
